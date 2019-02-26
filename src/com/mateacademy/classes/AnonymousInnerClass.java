@@ -1,4 +1,4 @@
-package com.mateacademy.Classes;
+package com.mateacademy.classes;
 
 public class AnonymousInnerClass {
     static AnonymousClass anonymousClass = new AnonymousClass() {

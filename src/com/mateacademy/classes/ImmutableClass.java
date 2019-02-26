@@ -1,4 +1,4 @@
-package com.mateacademy.Classes;
+package com.mateacademy.classes;
 
 public final class ImmutableClass {
     private String name;
@@ -6,6 +6,7 @@ public final class ImmutableClass {
 
     ImmutableClass(String name, int age) {
         this.name = name;
+        this.age = age;
     }
 
     public String getName() {

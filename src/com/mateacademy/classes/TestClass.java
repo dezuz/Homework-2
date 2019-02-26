@@ -1,6 +1,4 @@
-package com.mateacademy.Classes;
-
-import com.mateacademy.Builder.*;
+package com.mateacademy.classes;
 
 public class TestClass {
 

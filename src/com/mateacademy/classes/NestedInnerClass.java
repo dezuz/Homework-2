@@ -1,4 +1,4 @@
-package com.mateacademy.Classes;
+package com.mateacademy.classes;
 
 public class NestedInnerClass {
     private int age = 17;

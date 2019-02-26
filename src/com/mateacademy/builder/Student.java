@@ -1,7 +1,6 @@
-package com.mateacademy.Builder;
+package com.mateacademy.builder;
 
 public class Student {
-
     private final String name;
     private final String surname;
     private final int age;
@@ -35,9 +34,7 @@ public class Student {
     public double getWeight() {
         return weight;
     }
-
     public static class StudentBuilder {
-
         private String name;
         private String surname;
         private int age;
@@ -46,38 +43,32 @@ public class Student {
 
         public StudentBuilder setStudentName(String name) {
             this.name = name;
-
             return this;
         }
 
         public StudentBuilder setStudentSurname(String surname) {
             this.surname = surname;
-
             return this;
         }
 
         public StudentBuilder setStudentAge(int age) {
             this.age = age;
-
             return this;
         }
 
         public StudentBuilder setStudentHeight(double height) {
             this.height = height;
-
             return this;
         }
 
         public StudentBuilder setStudentWeight(double weight) {
             this.weight = weight;
-
             return this;
         }
 
         public Student build() {
             return new Student(name, surname, age, height, weight);
         }
-
     }
 
 }

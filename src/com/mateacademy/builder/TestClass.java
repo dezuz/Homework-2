@@ -1,4 +1,4 @@
-package com.mateacademy.Builder;
+package com.mateacademy.builder;
 
 public class TestClass {
 
